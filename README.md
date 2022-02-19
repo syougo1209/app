@@ -36,19 +36,3 @@ production:
 ```
 $ vi config/environments/development.rb
 ```
-
-
-
-```development.rb
-Rails.application.configure do
-  config.hosts.clear #追加
-```
-
-
-
-```
-$ cp docker/rails/puma.rb config/ (pumaの設定を上書き)
-$ mkdir -p tmp/sockets  (socketファイルの置き場所を確保)
-$ docker-compose up -d --build 
-$ docker-compose run app rails db:create
-```
