@@ -3,8 +3,8 @@ class PostsController < ApplicationController
 
   # GET /posts
   def index
-
-    render json: { status: 200 }
+    @posts = Post.all
+    render json: @posts
   end
 
   # GET /posts/1

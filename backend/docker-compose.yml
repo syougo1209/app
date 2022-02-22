@@ -29,6 +29,11 @@ services:
     extends:  
       file: ./docker/mysql/password.yml
       service: password
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: mysql
+      MYSQL_USER: mysqluser
+      MYSQL_PASSWORD: password
   nginx:
     build:
       context: .
