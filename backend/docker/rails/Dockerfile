@@ -16,5 +16,7 @@ RUN bundle install -j4
 
 ADD . /app
 
+RUN mkdir -p app/tmp/sockets
 
+VOLUME /app/tmp/sockets
 EXPOSE 3000
