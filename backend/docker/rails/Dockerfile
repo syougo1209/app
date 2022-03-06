@@ -22,6 +22,3 @@ RUN mkdir -p app/tmp/sockets
 VOLUME /app/tmp/sockets
 
 EXPOSE 3000
-
-RUN chmod +x /app/entrypoint.sh
-ENTRYPOINT ["/app/entrypoint.sh"]
