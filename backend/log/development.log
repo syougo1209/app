@@ -418,3 +418,48 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 46ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 4638)
 
 
+Started GET "/" for 172.19.0.1 at 2022-04-24 00:08:49 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.9ms | Allocations: 918)
+Completed 200 OK in 188ms (Views: 59.1ms | ActiveRecord: 0.0ms | Allocations: 7796)
+
+
+Started GET "/service_worker.js" for 172.19.0.1 at 2022-04-24 00:08:52 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/service_worker.js"):
+  
+Started GET "/service_worker.js" for 172.19.0.1 at 2022-04-24 00:09:21 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/service_worker.js"):
+  
+Started GET "/service_worker.js" for 172.19.0.1 at 2022-04-24 10:51:02 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/service_worker.js"):
+  
+Started GET "/ws" for 172.19.0.1 at 2022-04-24 10:51:12 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  
+Started GET "/ws" for 172.19.0.1 at 2022-04-24 10:51:46 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  
+Started GET "/ws" for 172.19.0.1 at 2022-04-24 10:52:51 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  
+Started GET "/ws" for 172.19.0.1 at 2022-04-24 10:55:03 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  
+Started GET "/ws" for 172.19.0.1 at 2022-04-24 10:59:23 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  
+Started GET "/ws" for 172.19.0.1 at 2022-04-24 11:08:05 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  
