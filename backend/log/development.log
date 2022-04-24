@@ -463,3 +463,127 @@ Started GET "/ws" for 172.19.0.1 at 2022-04-24 11:08:05 +0900
   
 ActionController::RoutingError (No route matches [GET] "/ws"):
   
+Started GET "/posts" for 172.19.0.1 at 2022-04-24 12:17:03 +0900
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (43.0ms)[0m  [1m[34mSELECT `posts`.* FROM `posts`[0m
+  ↳ app/controllers/posts_controller.rb:7:in `index'
+Completed 200 OK in 224ms (Views: 148.5ms | ActiveRecord: 50.5ms | Allocations: 2087)
+
+
+Started GET "/service_worker.js" for 172.19.0.1 at 2022-04-24 12:17:06 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/service_worker.js"):
+  
+Started GET "/service_worker.js" for 172.19.0.1 at 2022-04-24 12:17:35 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/service_worker.js"):
+  
+Started OPTIONS "/categories/recommended_categories" for 172.19.0.1 at 2022-04-24 12:55:51 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/categories/recommended_categories"):
+  
+Started OPTIONS "/categories/recommended_categories" for 172.19.0.1 at 2022-04-24 12:55:53 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/categories/recommended_categories"):
+  
+Started OPTIONS "/categories/recommended_categories" for 172.19.0.1 at 2022-04-24 12:55:55 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/categories/recommended_categories"):
+  
+Started OPTIONS "/categories/recommended_categories" for 172.19.0.1 at 2022-04-24 12:55:59 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/categories/recommended_categories"):
+  
+Started OPTIONS "/categories/recommended_categories" for 172.19.0.1 at 2022-04-24 12:56:04 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/categories/recommended_categories"):
+  
+Started OPTIONS "/categories/recommended_categories" for 172.19.0.1 at 2022-04-24 12:56:05 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/categories/recommended_categories"):
+  
+Started OPTIONS "/posts" for 172.19.0.1 at 2022-04-24 12:56:06 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for 172.19.0.1 at 2022-04-24 12:56:07 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for 172.19.0.1 at 2022-04-24 12:56:09 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for 172.19.0.1 at 2022-04-24 12:56:13 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for 172.19.0.1 at 2022-04-24 12:56:21 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for 172.19.0.1 at 2022-04-24 12:58:14 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for 172.19.0.1 at 2022-04-24 13:01:58 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for 172.19.0.1 at 2022-04-24 13:02:00 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for 172.19.0.1 at 2022-04-24 13:02:01 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for 172.19.0.1 at 2022-04-24 13:02:04 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started OPTIONS "/posts" for 172.19.0.1 at 2022-04-24 13:02:08 +0900
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/posts"):
+  
+Started GET "/" for 172.19.0.1 at 2022-04-24 13:04:12 +0900
+Started GET "/posts" for 172.19.0.1 at 2022-04-24 13:04:13 +0900
+Started GET "/service_worker.js" for 172.19.0.1 at 2022-04-24 13:04:13 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/service_worker.js"):
+  
+Processing by PostsController#index as HTML
+Processing by Rails::WelcomeController#index as HTML
+  [1m[36mPost Load (5.0ms)[0m  [1m[34mSELECT `posts`.* FROM `posts`[0m
+  ↳ app/controllers/posts_controller.rb:7:in `index'
+Completed 200 OK in 363ms (Views: 25.7ms | ActiveRecord: 6.8ms | Allocations: 15178)
+
+
+  Rendering /usr/local/bundle/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 59.4ms | Allocations: 827)
+Completed 200 OK in 324ms (Views: 108.9ms | ActiveRecord: 0.0ms | Allocations: 8902)
+
+
+Started GET "/service_worker.js" for 172.19.0.1 at 2022-04-24 13:04:19 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/service_worker.js"):
+  
+Started GET "/service_worker.js" for 172.19.0.1 at 2022-04-24 13:04:47 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/service_worker.js"):
+  
+Started GET "/posts" for 172.19.0.1 at 2022-04-24 13:11:44 +0900
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (3.8ms)[0m  [1m[34mSELECT `posts`.* FROM `posts`[0m
+  ↳ app/controllers/posts_controller.rb:7:in `index'
+Completed 200 OK in 27ms (Views: 23.4ms | ActiveRecord: 6.5ms | Allocations: 939)
+
+
+Started GET "/posts" for 172.19.0.1 at 2022-04-24 13:13:15 +0900
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts`[0m
+  ↳ app/controllers/posts_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 1.4ms | Allocations: 716)
+
+
